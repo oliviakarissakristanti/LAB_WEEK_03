@@ -11,6 +11,7 @@
         android:name="com.example.lab_week_03.ListFragment"
         android:label="Coffee List"
         tools:layout="@layout/fragment_list">
+
         <action
             android:id="@+id/coffee_id_action"
             app:destination="@id/coffeeDetail" />
